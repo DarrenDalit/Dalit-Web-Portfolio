@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <h1 class="logo">Web Portfolio</h1>
+            <nav>
+                <ul class="navbar" id="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <h2>Personal Details:</h2>
+            <hr>
+            <p><b>Full Name:</b> Dalit, Darren Cabaysa</p>
+            <p><b>Date of Birth:</b> July 1, 2006</p>
+            <p><b>Age:</b> 19</p>
+            <p><b>Address:</b> Brgy. Lutucan 1, Sariaya, Quezon</p>
+            <p><b>Gender:</b> Male</p>
+            <p><b>Height:</b> 5'10</p>
+            <p><b>Weight:</b> 75kg</p>
+            <p><b>Nationality:</b> Filipino</p>
+            <p><b>Relegion:</b> Roman Catholic</p>
+            <br>
+            <h2>Skills</h2>
+            <hr>
+            <ul>
+                <li>Web Development: HTML, CSS & Basic JavaScript</li>
+                <li>Database Systems: Microsoft SQL Server, phpmyadmin</li>
+                <li>Programming: C++, C#, Python</li>
+                <li>Adobe Illustrator</li>
+            </ul>
+            <br>
+            <h2>Education</h2>
+            <hr>
+            <h4>College</h4>
+            <p>College of Science, Technology and Communications, Inc.</p>
+            <p>Bachelor of Science in Information Technology (BSIT)</p>
+            <p>A.Y 2024 - Present</p>
+            <br>
+            <h4>Senior High School</h4>
+            <p>College of Science, Technology and Communications, Inc.</p>
+            <p>Science, Technology, Engineering and Mathematics (STEM)</p>
+            <p>A.Y 2022 - 2024</p>
+            <br>
+            <h4>High School</h4>
+            <p>Lutucan Integrated National High School</p>
+            <p>A.Y 2018 - 2022</p>
+            <br>
+            <h2>Awards</h2>
+            <hr>
+            <p>Humility Award (2017)</p>
+            <p>Top 9 (2018)</p>
+            <p>Top 10 (2018)</p>
+            <p>Conduct Awardee (2022)</p>
+            <br>
+            <h2>Hobbies</h2>
+            <hr>
+            <ul>
+                <li>Playing Basketball</li>
+                <li>Coding/Programming</li>
+                <li>Online Games</li>
+                <li>Cycling</li>
+                <li>Music</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer1">
+        <p>©  Web Portfolio | All Rights Reserved</p>
+            <div class="icons">
+                <a href="tel:+63993474595" title="Call"><img src=".//phone.png" alt="Phone"></a>
+                <a href="mailto:20240063@cstc.edu.ph" title="Email"><img src="./gmail.png" alt="Email"></a>
+                <a href="https://facebook.com/cabaysa.darren" target="_blank" title="Facebook"><img src="./facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </footer>
+ 
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+</body>
+</html>
